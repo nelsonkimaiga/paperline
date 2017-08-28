@@ -1,0 +1,298 @@
+body{ margin-top:0px; background-color:#ffffff; background: url(images/bg.jpg) repeat-x}
+.mainlinks{
+color: #ffffff;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: normal;
+font-size: 14px;
+list-style:none;
+}
+.mainlinks a:link{
+color: #ffffff;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: normal;
+font-size: 14px;
+list-style:none;
+}
+
+.mainlinks a:visited{
+color: #ffffff;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: normal;
+font-size: 14px;
+list-style:none;
+}
+
+.mainlinks a:hover{
+color: #4dbbcc;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: normal;
+font-size: 14px;
+list-style:none;
+}
+
+.mainlink2{
+color: #ffffff;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: normal;
+font-size: 14px;
+list-style:none;
+}
+
+.arrows{
+color: #ffffff;
+font-family:"Tw Cen MT";
+text-decoration: none;
+text-transform: none;
+font-weight: normal;
+font-size: 10px;
+list-style:none;
+}
+
+.maintext{
+color: #000000;
+font-family:Arial, Helvetica, sans-serif;
+text-decoration: none;
+line-height:18px;
+text-transform: none;
+font-weight: normal;
+font-size: 14px;
+list-style: circle;
+}
+.maintextbold{
+color: #000000;
+font-family:Arial, Helvetica, sans-serif;
+text-decoration: none;
+line-height:40px;
+text-transform: none;
+font-weight: normal;
+font-size: 24px;
+list-style:none;
+}
+
+.whitetext{
+color: #ffffff;
+font-family:Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-transform: none;
+font-weight: normal;
+line-height:18px;
+font-size: 12px;
+list-style: none;
+}
+.whitetext2{
+color: #ffffff;
+font-family:Arial, Helvetica, sans-serif;
+text-decoration: underline;
+text-transform: none;
+font-weight: normal;
+line-height:18px;
+font-size: 12px;
+list-style: none;
+}
+
+.submenu{
+color: #1b7ce0;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-transform: none;
+font-weight: normal;
+font-size: 14px;
+list-style:none;
+}
+
+.submenu a:link{
+color: #1b7ce0;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-transform: none;
+font-weight: normal;
+font-size: 14px;
+list-style:none;
+}
+
+.submenu a:visited{
+color: #1b7ce0;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-transform: none;
+font-weight: normal;
+font-size: 14px;
+list-style:none;
+}
+
+.submenu a:hover{
+color: #f7941e;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-transform: none;
+font-weight: normal;
+font-size: 14px;
+list-style:none;
+}
+
+.submenu2{
+color: #f7941e;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-transform: none;
+font-weight: normal;
+font-size: 14px;
+list-style:none;
+}
+.submenu2 a:link{
+color: #f7941e;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-transform: none;
+font-weight: normal;
+font-size: 14px;
+list-style:none;
+}
+
+.submenu2 a:visited{
+color: #f7941e;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-transform: none;
+font-weight: normal;
+font-size: 14px;
+list-style:none;
+}
+
+.submenu2 a:hover{
+color: #f7941e;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-transform: none;
+font-weight: normal;
+font-size: 14px;
+list-style:none;
+}
+
+.greenheader{
+color: #F78930;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-transform: none;
+font-weight: 700;
+font-size: 15px;
+list-style:none;
+}
+
+.smalheader{
+color: #1b7ce0;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-transform: none;
+font-weight: normal;
+font-size: 14px;
+list-style:none;
+}
+
+.mainheader{
+color: #0084ff;
+font-family: "Times New Roman", Times, serif;
+text-decoration: none;
+text-transform: none;
+font-weight: normal;
+font-size: 32px;
+list-style: none;
+line-height:28px;
+}
+
+
+.readmore{
+color: #266010;
+font-family:Arial, Helvetica, sans-serif;
+text-decoration: underline;
+text-transform: none;
+font-weight: normal;
+font-size: 11px;
+list-style:none;
+}
+.readmore a:link{
+color: #266010;
+font-family:Arial, Helvetica, sans-serif;
+text-decoration: underline;
+text-transform: none;
+font-weight: normal;
+font-size: 11px;
+list-style:none;
+}
+.readmore a:visited{
+color: #266010;
+font-family:Arial, Helvetica, sans-serif;
+text-decoration: underline;
+text-transform: none;
+font-weight: normal;
+font-size: 11px;
+list-style:none;
+}
+.readmore a:hover{
+color: #000000;
+font-family:Arial, Helvetica, sans-serif;
+text-decoration: underline;
+text-transform: none;
+font-weight: normal;
+font-size: 11px;
+list-style:none;
+}
+
+.projectsheader{
+color: #F78930;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-transform: none;
+font-weight: bold ;
+font-size:22px;
+list-style:none;
+}
+
+.footer{
+color: #000000;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-transform: none;
+font-weight: normal;
+font-size: 11px;
+list-style:none;
+
+}.footer a:link{
+color: #000000;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: underline;
+text-transform: none;
+font-weight: normal;
+font-size: 11px;
+list-style:none;
+}
+.footer a:visited{
+color: #000000;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-transform: none;
+font-weight: normal;
+font-size: 11px;
+list-style:none;
+}
+.footer a:hover{
+color: #000000;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-transform: none;
+font-weight: normal;
+font-size: 11px;
+list-style:none;
+}
+
+

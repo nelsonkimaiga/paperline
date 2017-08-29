@@ -205,13 +205,13 @@ h5 {
     z-index: -1;
 }
 .timeline .timeline-row .timeline-content .panel {
-   
+
 }
 .timeline .timeline-row .timeline-content .panel-body {
     padding: 10px 15px 10px;
     position: relative;
     z-index: 10;
-   
+
 }
 
 .timeline .timeline-row .timeline-content h4 {
@@ -221,7 +221,7 @@ h5 {
     line-height: 1.5;
     font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
     text-transform: none;
-   
+
 }
 
 .timeline .timeline-row .timeline-content p {
@@ -337,7 +337,7 @@ h5 {
     }
     .timeline .timeline-row .timeline-time small {
         display: inline-block; margin-right: 8px;
-        
+
     }
     .timeline .timeline-row .timeline-time strong {
         display: inline-block;
@@ -383,52 +383,52 @@ h5 {
 @charset "UTF-8";
 
 .blockquote-container.blockquote-left {
-  float: left;
-  width: 35%;
-  margin-right: 1rem;
+    float: left;
+    width: 35%;
+    margin-right: 1rem;
 }
 
 @media screen and (max-width: 39.9375em) {
-  .blockquote-container.blockquote-left {
-    float: none;
-    margin: 0;
-    width: 100%;
-  }
+    .blockquote-container.blockquote-left {
+        float: none;
+        margin: 0;
+        width: 100%;
+    }
 }
 
 .blockquote-container.blockquote-right {
-  float: right;
-  width: 35%;
-  margin-left: 1rem;
+    float: right;
+    width: 35%;
+    margin-left: 1rem;
 }
 
 .blockquote-container .callout .blockquote-title {
-  margin-left: 1rem;
+    margin-left: 1rem;
 }
 
 .blockquote-container .callout blockquote {
-  quotes: "“" "”" "‘" "’  ";
-  border-left: none;
+    quotes: "“" "”" "‘" "’  ";
+    border-left: none;
 }
 
 .blockquote-container .callout blockquote:before {
-  content: open-quote;
-  color: #8a8a8a;
-  font-size: 4em;
-  line-height: 0.1em;
-  vertical-align: -0.4em;
+    content: open-quote;
+    color: #8a8a8a;
+    font-size: 4em;
+    line-height: 0.1em;
+    vertical-align: -0.4em;
 }
 
 .blockquote-container .callout blockquote:after {
-  content: close-quote;
-  color: #8a8a8a;
-  font-size: 4em;
-  line-height: 0.1em;
-  vertical-align: -0.6em;
+    content: close-quote;
+    color: #8a8a8a;
+    font-size: 4em;
+    line-height: 0.1em;
+    vertical-align: -0.6em;
 }
 
 .blockquote-container .callout blockquote .blockquote-content {
-  display: inline;
-  color: #0a0a0a;
+    display: inline;
+    color: #0a0a0a;
 }
 

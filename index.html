@@ -19,6 +19,36 @@
         <link href="themes/1/js-image-slider.css" rel="stylesheet" type="text/css">
         <script src="themes/1/js-image-slider.js" type="text/javascript"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>  
+        <!--form validation-->
+        <script type="text/javascript">
+            function validateForm() {
+                var x = document.forms["contactForm"]["name"].value;
+                var y = document.forms["contactForm"]["phone"].value;
+                var z = document.forms["contactForm"]["email"].value;
+                var m = document.forms["contactForm"]["message"].value;
+
+                if (x == null || x == "") {
+                    alert("Name must be filled out");
+                    return false;
+                }
+
+                if (y == null || y == "" || (y.value < 10) || (isNaN(y.value))) {
+                    alert("number must be filled out");
+                    return false;
+                }
+
+                if (z == null || z == "") {
+                    alert("email must be filled out");
+                    return false;
+                }
+
+                if (m == null || m == "") {
+                    alert("message must be filled out");
+                    return false;
+                }
+                return true;
+            }
+        </script>
     </head>
     <body>
         <div data-sticky-container class="nav-bar" style="background-color: #F78930;">

@@ -51,7 +51,7 @@ h5 {
 
 /*--footer--*/
 .copy {
-    background-color: #F78930;
+    
     padding: 2em 0;
     text-align: center;
     color: #fff
@@ -93,9 +93,6 @@ h5 {
     background: url("../img/arrow.png") no-repeat 0px 0px;
 }
 
-.contactus{
-    text-align: center;
-}
 
 .ourproducts img{
     border-radius: 20px;

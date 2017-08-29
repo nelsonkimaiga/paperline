@@ -1,6 +1,6 @@
 body, html{
     font-family: 'Raleway', serif;
-    padding-top: 80px;
+    /*padding-top: 80px;*/
 }
 
 body{
@@ -40,132 +40,14 @@ h5 {
     font-weight: inherit;
 }
 
-/*navbar*/ 
-.nav-center,
-.center{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1200px;
+.title-bar a{
+    color: #ffffff;
 }
 
-a{
-    color: #191919;
-    text-decoration: none;
+.title-bar{
+    background-color: #F78930;
+    color: #ffffff;
 }
-ul{
-    list-style: none;
-}
-
-/****************************NAV BAR************************************/
-  
-.nav{
-    background: #F78930;
-    min-height: 50px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    color: #FFFFFF;
-}
-.nav .left{
-    float: left;
-    margin-left: 0;
-}
-.nav .left li{
-    font-size: 14px;
-    float: left;
-}
-.nav .left li a{
-    display: block;
-    padding: 9px 15px;
-    line-height: 30px;
-}
-.nav .left li a:hover{
-    background: #f2f2f2;
-}
-
-.nav .right{
-    float: right;
-    margin-right: 0;
-}
-.nav .right li{
-    font-size: 14px;
-    float: left;
-}
-.nav .right li a{
-    display: block;
-    padding: 9px 15px;
-    line-height: 30px;
-}
-.nav .right li a:hover{
-    background: #f2f2f2;
-}
-
-.toggle-nav{
-    display: none;
-}
-
-.nav-mobile style{
-    display: block;
-}
-
-/*********NAV BAR END**********/
-
-/****************************MEDIA QUERIES************************************/
-@media only screen and (max-width: 640px){
-    .nav{
-        border-bottom: 1px solid rgba(0,0,0,0.1);
-    }
-    .nav-center{
-        width: 100%;
-    }
-    .toggle-nav{
-        display: block;
-        padding: 10px;
-        position: absolute;
-        right: 10px;
-        line-height: 30px;
-    }
-    .toggle-nav:after{
-        content: ' Menu';
-    }
-
-    .nav-mobile{
-        display: none;
-    }
-
-    .style-mobile{
-        background: #ffffff;
-        top : 51px;
-        position : absolute;
-        width : 100%;
-    }
-
-    .style-mobile li{
-        display: block;
-        width: 100%;
-    }
-
-    .nav .right{
-        display: block;
-        float: none;
-        margin: 0em;
-    }
-
-    .nav .left{
-        display: block;
-        float: none;
-        margin: 0em;
-    }
-}
-
-@media only screen and (min-width: 641px){
-    .nav-mobile {
-        display:block !important;
-    }
-}
-/*********MEDIA QUERY END**********/
-
 
 /*--footer--*/
 .copy {
@@ -495,6 +377,59 @@ ul{
     .timeline.animated .timeline-row:nth-child(odd) .timeline-content {
         left: 0;
     }
+}
+
+/*blockquote*/
+@charset "UTF-8";
+
+.blockquote-container.blockquote-left {
+  float: left;
+  width: 35%;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .blockquote-container.blockquote-left {
+    float: none;
+    margin: 0;
+    width: 100%;
+  }
+}
+
+.blockquote-container.blockquote-right {
+  float: right;
+  width: 35%;
+  margin-left: 1rem;
+}
+
+.blockquote-container .callout .blockquote-title {
+  margin-left: 1rem;
+}
+
+.blockquote-container .callout blockquote {
+  quotes: "“" "”" "‘" "’  ";
+  border-left: none;
+}
+
+.blockquote-container .callout blockquote:before {
+  content: open-quote;
+  color: #8a8a8a;
+  font-size: 4em;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+}
+
+.blockquote-container .callout blockquote:after {
+  content: close-quote;
+  color: #8a8a8a;
+  font-size: 4em;
+  line-height: 0.1em;
+  vertical-align: -0.6em;
+}
+
+.blockquote-container .callout blockquote .blockquote-content {
+  display: inline;
+  color: #0a0a0a;
 }
 
 

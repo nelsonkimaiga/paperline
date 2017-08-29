@@ -20,7 +20,7 @@
     </head>
 
     <body>
-        <nav class="nav ">
+<!--        <nav class="nav " data-sticky-container>
             <div class="nav-center">
                 <a class="toggle-nav" href="#">&#9776;</a>
 
@@ -37,9 +37,33 @@
                     </ul>
                 </div>
             </div>
-        </nav>
-        <div class="container">
-            <div id="sliderFrame">
+        </nav>-->
+<div data-sticky-container class="nav-bar" style="background-color: #F78930;">
+  <div class="title-bar" data-sticky data-options="marginTop:0;" style="width:100%">
+      <!--logo-->
+         <div class="title-bar-left">
+             <span class="title-bar-title"><img src="images/logo.jpg" width="500" height="70"></span>
+      </div>
+      <!--right menu content-->
+      <div class="title-bar-right">
+          <ul class="menu align-right" role="menubar">
+            <li role="menuitem" class="is-dropdown-submenu-parent opens-left" aria-haspopup="true" aria-label="Item 1" data-is-click="false">
+            <a>Contacts</a>
+            <li role="menuitem" class="is-dropdown-submenu-parent opens-left" aria-haspopup="true" aria-label="Item 2" data-is-click="false">
+            <a>Our Products</a>
+            <li role="menuitem" class="is-dropdown-submenu-parent opens-left" aria-haspopup="true" aria-label="Item 3" data-is-click="false">
+            <a>Equipments</a>
+            <li role="menuitem" class="is-dropdown-submenu-parent opens-left" aria-haspopup="true" aria-label="Item 4" data-is-click="false">
+            <a>About US</a>
+            <li role="menuitem" class="is-dropdown-submenu-parent opens-left" aria-haspopup="true" aria-label="Item 5" data-is-click="false">
+            <a>Home</a>
+          </ul>
+      </div>
+  </div>
+</div>
+<div class="container">
+            <div class="row">
+                            <div id="sliderFrame">
                 <div id="slider">
                     <a href="http://www.menucool.com/javascript-image-slider" target="_blank">
                         <img src="images/header.jpg" alt="">
@@ -49,11 +73,13 @@
                     <img src="images/header4.jpg" alt="">
                 </div>
             </div>
+                
+            </div>
             <hr>
             <!--about section-->
             <div class="aboutus row" id="#about">
                 <p style="text-align: center; color: #F78930; font-size: 20px;">About Us</p>
-                <!--vision and mission-->
+                vision and mission
                 <div class="blockquote-container">
                     <div class="callout">
                         <h4 class="blockquote-title">Vision</h4>
@@ -98,24 +124,24 @@
                 </ol>
             </div>
             <hr>
-            <!--equipment-->
+           <!--  equipment-->
             <div class="row" id="equipment">
                 <p style="text-align: center; color: #F78930; font-size: 20px;">Equipment</p>
                 <p>At Paperline, we pride ourselves on offering state-of-the-art equipment and technology with service to match. Powered by state of the art printing machines such as; Sorm, kor, kord and plattern; we offer faster- turnaround with minimal human error and lower over-head costs. <p>
                 <p>We deliver unparalleled pre-press capabilities and expertise, printing technology, quality service and attention to detail that delivers a superior print product allowing you to look your best and come back again.</p>
             </div>
             <hr>
-            <!--products-->
+            products
             <div class="ourproducts row" id="products">
                 <p style="text-align: center; color: #F78930; font-size: 20px;">Products</p>
 
-                <!--product list accordion-->
+                product list accordion
                 <ul class="accordion" data-accordion>
                     <li class="accordion-item is-active" data-accordion-item>
-                        <!-- Accordion tab title -->
+                         Accordion tab title 
                         <a href="#" class="accordion-title">Corporate Stationery</a>
 
-                        <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+                         Accordion tab content: it would start in the open state due to using the `is-active` state class. 
                         <div class="accordion-content" data-tab-content>
                             <ol>
                                 <li>Presentation Folders</li>
@@ -126,7 +152,7 @@
                         </div>
                     </li>
                     <li class="accordion-item is-active" data-accordion-item>
-                        <!-- ... -->
+                         ... 
                         <a href="#" class="accordion-title">Marketing branding and promotions materials</a>
                         <div class="accordion-content" data-tab-content>
                             <ol>
@@ -138,7 +164,7 @@
                         </div>
                     </li>
                     <li class="accordion-item is-active" data-accordion-item>
-                        <!-- ... -->
+                         ... 
                         <a href="#" class="accordion-title"><i class="fa fa-book"></i> Goods/product packages and Publishing</a>
                         <div class="accordion-content" data-tab-content>
                             <ol>
@@ -151,7 +177,7 @@
                     </li>
                 </ul>
 
-                <!--row 1-->
+                row 1
                 <div class="row">
                     <div class="small-12 large-3 columns">
                         <img class="first" src="images/image1.jpg" alt="">
@@ -167,7 +193,7 @@
                     </div>
                 </div>
                 <br>
-                <!--row 2-->
+                row 2
                 <div class="row">
                     <div class="small-12 large-3 columns">
                         <img src="images/image6.jpg" alt="">
@@ -179,10 +205,10 @@
             </div> 
             <hr>
         </div>
-        <!--unique-->
+        unique
         <div id="timeline" class="animated fadeIn" style="background-color: #2a2d38;">
             <div class="overlay">
-                <!--<p class="head">GFGP Four-Phase delivery plan</p>-->
+                <p class="head">GFGP Four-Phase delivery plan</p>
                 <div class="timeline-container">
                     <div style="text-align: center;">
                         <a href="#timeline" class="button large delay-06" style="background-color: #f2a900; color: #000000;">What makes Paperline unique?</a>
@@ -284,16 +310,13 @@
             <i class="fa fa-envelope" aria-hidden="true"></i> Email: <a href="mailto:info.paperline@gmail.com">info.paperline@gmail.com</a>
 
         </div>
-    </div>
-
-
-    <!--footer-->
+    footer
     <div class="footer">
         <div class="copy">
             <div class="container">
                 <p>All Rights Reserved</p>
             </div>
-            <!-- curent date and year to appear on footer-->
+             curent date and year to appear on footer
             &copy; Paperline
             <script type="text/javascript">
                 document.write(new Date().getFullYear());

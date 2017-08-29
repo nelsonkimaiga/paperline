@@ -20,60 +20,43 @@
     </head>
 
     <body>
-<!--        <nav class="nav " data-sticky-container>
-            <div class="nav-center">
-                <a class="toggle-nav" href="#">&#9776;</a>
 
-                <div class="nav-mobile">
-                    <ul class="left">
-                        <li><a href="index.html"><img src="images/logo.jpg" width="500" height="70"></a></li>                        
-                    </ul>
-                    <ul class="right">
-                        <li><a href="#"><i class="fa fa-home"></i> Home</a></li<li>
-                        <li><a href="#"><i class="fa fa-info"></i> About Us</a></li>
-                        <li><a href="#"><i class="fa fa-print" aria-hidden="true"></i> Equipments</a></li>
-                        <li><a href="#"><i class="fa fa-cart-plus" aria-hidden="true"></i> Our Products</a></li>
-                        <li><a href="#"> Contacts</a></li>
+        <div data-sticky-container class="nav-bar" style="background-color: #F78930;">
+            <div class="title-bar" data-sticky data-options="marginTop:0;" style="width:100%">
+                <!--logo-->
+                <div class="title-bar-left">
+                    <span class="title-bar-title"><img src="images/logo.jpg" width="500" height="70"></span>
+                </div>
+                <!--right menu content-->
+                <div class="title-bar-right">
+                    <ul class="menu align-right" role="menubar">
+                        <li role="menuitem" class="is-dropdown-submenu-parent opens-left" aria-haspopup="true" aria-label="Item 1" data-is-click="false">
+                            <a>Contacts</a>
+                        <li role="menuitem" class="is-dropdown-submenu-parent opens-left" aria-haspopup="true" aria-label="Item 2" data-is-click="false">
+                            <a> <i class="fa fa-cart-plus" aria-hidden="true"></i> Our Products</a>
+                        <li role="menuitem" class="is-dropdown-submenu-parent opens-left" aria-haspopup="true" aria-label="Item 3" data-is-click="false">
+                             <a><i class="fa fa-print" aria-hidden="true"></i> Equipments</a>
+                        <li role="menuitem" class="is-dropdown-submenu-parent opens-left" aria-haspopup="true" aria-label="Item 4" data-is-click="false">
+                             <a><i class="fa fa-info"></i> About us</a>
+                        <li role="menuitem" class="is-dropdown-submenu-parent opens-left" aria-haspopup="true" aria-label="Item 5" data-is-click="false">
+                             <a><i class="fa fa-home"></i> Home</a>
                     </ul>
                 </div>
             </div>
-        </nav>-->
-<div data-sticky-container class="nav-bar" style="background-color: #F78930;">
-  <div class="title-bar" data-sticky data-options="marginTop:0;" style="width:100%">
-      <!--logo-->
-         <div class="title-bar-left">
-             <span class="title-bar-title"><img src="images/logo.jpg" width="500" height="70"></span>
-      </div>
-      <!--right menu content-->
-      <div class="title-bar-right">
-          <ul class="menu align-right" role="menubar">
-            <li role="menuitem" class="is-dropdown-submenu-parent opens-left" aria-haspopup="true" aria-label="Item 1" data-is-click="false">
-            <a>Contacts</a>
-            <li role="menuitem" class="is-dropdown-submenu-parent opens-left" aria-haspopup="true" aria-label="Item 2" data-is-click="false">
-            <a>Our Products</a>
-            <li role="menuitem" class="is-dropdown-submenu-parent opens-left" aria-haspopup="true" aria-label="Item 3" data-is-click="false">
-            <a>Equipments</a>
-            <li role="menuitem" class="is-dropdown-submenu-parent opens-left" aria-haspopup="true" aria-label="Item 4" data-is-click="false">
-            <a>About US</a>
-            <li role="menuitem" class="is-dropdown-submenu-parent opens-left" aria-haspopup="true" aria-label="Item 5" data-is-click="false">
-            <a>Home</a>
-          </ul>
-      </div>
-  </div>
-</div>
-<div class="container">
+        </div>
+        <div class="container">
             <div class="row">
-                            <div id="sliderFrame">
-                <div id="slider">
-                    <a href="http://www.menucool.com/javascript-image-slider" target="_blank">
-                        <img src="images/header.jpg" alt="">
-                    </a>
-                    <img src="images/header2.jpg" alt="">
-                    <img src="images/header3.jpg" alt="">
-                    <img src="images/header4.jpg" alt="">
+                <div id="sliderFrame">
+                    <div id="slider">
+                        <a href="http://www.menucool.com/javascript-image-slider" target="_blank">
+                            <img src="images/header.jpg" alt="">
+                        </a>
+                        <img src="images/header2.jpg" alt="">
+                        <img src="images/header3.jpg" alt="">
+                        <img src="images/header4.jpg" alt="">
+                    </div>
                 </div>
-            </div>
-                
+
             </div>
             <hr>
             <!--about section-->
@@ -124,7 +107,7 @@
                 </ol>
             </div>
             <hr>
-           <!--  equipment-->
+            <!--  equipment-->
             <div class="row" id="equipment">
                 <p style="text-align: center; color: #F78930; font-size: 20px;">Equipment</p>
                 <p>At Paperline, we pride ourselves on offering state-of-the-art equipment and technology with service to match. Powered by state of the art printing machines such as; Sorm, kor, kord and plattern; we offer faster- turnaround with minimal human error and lower over-head costs. <p>
@@ -138,10 +121,10 @@
                 product list accordion
                 <ul class="accordion" data-accordion>
                     <li class="accordion-item is-active" data-accordion-item>
-                         Accordion tab title 
+                        Accordion tab title 
                         <a href="#" class="accordion-title">Corporate Stationery</a>
 
-                         Accordion tab content: it would start in the open state due to using the `is-active` state class. 
+                        Accordion tab content: it would start in the open state due to using the `is-active` state class. 
                         <div class="accordion-content" data-tab-content>
                             <ol>
                                 <li>Presentation Folders</li>
@@ -152,7 +135,7 @@
                         </div>
                     </li>
                     <li class="accordion-item is-active" data-accordion-item>
-                         ... 
+                        ... 
                         <a href="#" class="accordion-title">Marketing branding and promotions materials</a>
                         <div class="accordion-content" data-tab-content>
                             <ol>
@@ -164,7 +147,7 @@
                         </div>
                     </li>
                     <li class="accordion-item is-active" data-accordion-item>
-                         ... 
+                        ... 
                         <a href="#" class="accordion-title"><i class="fa fa-book"></i> Goods/product packages and Publishing</a>
                         <div class="accordion-content" data-tab-content>
                             <ol>
@@ -310,29 +293,29 @@
             <i class="fa fa-envelope" aria-hidden="true"></i> Email: <a href="mailto:info.paperline@gmail.com">info.paperline@gmail.com</a>
 
         </div>
-    footer
-    <div class="footer">
-        <div class="copy">
-            <div class="container">
-                <p>All Rights Reserved</p>
+        footer
+        <div class="footer">
+            <div class="copy">
+                <div class="container">
+                    <p>All Rights Reserved</p>
+                </div>
+                curent date and year to appear on footer
+                &copy; Paperline
+                <script type="text/javascript">
+                    document.write(new Date().getFullYear());
+                </script>
             </div>
-             curent date and year to appear on footer
-            &copy; Paperline
-            <script type="text/javascript">
-                document.write(new Date().getFullYear());
-            </script>
+            <a href="#home" id="toTop" style="display: block;"><span id="toTopHover"></span><span id="toTopHover"></span> <span id="toTopHover" style="opacity: 1;"> </span></a>
         </div>
-        <a href="#home" id="toTop" style="display: block;"><span id="toTopHover"></span><span id="toTopHover"></span> <span id="toTopHover" style="opacity: 1;"> </span></a>
-    </div>
 
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-    <script src="js/smooth-scroll.js"></script>
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-    <script>
-                smoothScroll.init();
-    </script>
-</body>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+        <script src="js/smooth-scroll.js"></script>
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/vendor/what-input.js"></script>
+        <script src="js/vendor/foundation.min.js"></script>
+        <script src="js/app.js"></script>
+        <script>
+                    smoothScroll.init();
+        </script>
+    </body>
 </html>

@@ -429,3 +429,53 @@ h5 {
     color: #0a0a0a;
 }
 
+/*contact*/
+    .contact-container {
+        background: #FFDB99 no-repeat bottom center;
+        background-size: cover;
+        min-height: calc(100vh - 49px);
+        position: relative;
+    }
+    .contact-wrapper {
+        display: table;
+        width: 100%;
+        height: 300px;
+        min-height: 400px;
+        position: relative;
+        z-index: 500;
+    }
+    .contact-wrapper-inner {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+.transparent {
+    opacity: 0;
+}
+
+.map iframe {
+  border: none;
+  width: 100%;
+  height: 328px;
+}

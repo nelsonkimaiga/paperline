@@ -31,15 +31,15 @@
                 <div class="title-bar-right">
                     <ul class="menu align-right" role="menubar">
                         <li role="menuitem" class="is-dropdown-submenu-parent opens-left" aria-haspopup="true" aria-label="Item 1" data-is-click="false">
-                            <a>Contacts</a>
+                            <a data-scroll href="#contact">Contacts</a>
                         <li role="menuitem" class="is-dropdown-submenu-parent opens-left" aria-haspopup="true" aria-label="Item 2" data-is-click="false">
-                            <a> <i class="fa fa-cart-plus" aria-hidden="true"></i> Our Products</a>
+                            <a data-scroll href="#products"><i class="fa fa-cart-plus" aria-hidden="true"></i> Our Products</a>
                         <li role="menuitem" class="is-dropdown-submenu-parent opens-left" aria-haspopup="true" aria-label="Item 3" data-is-click="false">
-                            <a><i class="fa fa-print" aria-hidden="true"></i> Equipments</a>
+                            <a data-scroll href="#equipment"><i class="fa fa-print" aria-hidden="true"></i> Equipments</a>
                         <li role="menuitem" class="is-dropdown-submenu-parent opens-left" aria-haspopup="true" aria-label="Item 4" data-is-click="false">
-                            <a><i class="fa fa-info"></i> About us</a>
+                            <a data-scroll href="#about"><i class="fa fa-info"></i> About us</a>
                         <li role="menuitem" class="is-dropdown-submenu-parent opens-left" aria-haspopup="true" aria-label="Item 5" data-is-click="false">
-                            <a><i class="fa fa-home"></i> Home</a>
+                            <a href="index.html"><i class="fa fa-home"></i> Home</a>
                     </ul>
                 </div>
             </div>
@@ -60,7 +60,7 @@
             </div>
             <hr>
             <!--about section-->
-            <div class="aboutus row" id="#about">
+            <div class="aboutus row" id="about">
                 <p style="text-align: center; color: #F78930; font-size: 20px;">About Us</p>
                 vision and mission
                 <div class="blockquote-container">
@@ -94,7 +94,7 @@
                         </div>
                     </div>
                 </div>
-                <p>Our convinient inventory management service   allows us to print and sustain a constant supply of your corporate,   marketing, packaging and published materials, providing you with lower   cost per unit pricing. This allows us to provide customers with   consistently high quality printing at the lowest possible prices.   Paperline limited is driven by a passion to meet your commercial   printing needs, and to exceed your expectations on every job.
+                <p>Our convenient inventory management service   allows us to print and sustain a constant supply of your corporate,   marketing, packaging and published materials, providing you with lower   cost per unit pricing. This allows us to provide customers with   consistently high quality printing at the lowest possible prices.   Paperline limited is driven by a passion to meet your commercial   printing needs, and to exceed your expectations on every job.
                     <br>
                 <p>Based in the central business district, we have a fully   fledged design and printing station providing you with quality   commercial offset services, which include:</p>
                 <ol>
@@ -114,17 +114,17 @@
                 <p>We deliver unparalleled pre-press capabilities and expertise, printing technology, quality service and attention to detail that delivers a superior print product allowing you to look your best and come back again.</p>
             </div>
             <hr>
-            products
+            <!--products-->
             <div class="ourproducts row" id="products">
                 <p style="text-align: center; color: #F78930; font-size: 20px;">Products</p>
 
-                product list accordion
-                <ul class="accordion" data-accordion>
-                    <li class="accordion-item is-active" data-accordion-item>
-                        Accordion tab title 
+                <!--product list accordion-->
+                <ul class="accordion" data-accordion style="font-size: 18px;">
+                    <li class="accordion-item is-active" data-accordion data-multi-expand="true">
+                        <!-- Accordion tab title -->
                         <a href="#" class="accordion-title">Corporate Stationery</a>
 
-                        Accordion tab content: it would start in the open state due to using the `is-active` state class. 
+                        <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
                         <div class="accordion-content" data-tab-content>
                             <ol>
                                 <li>Presentation Folders</li>
@@ -135,7 +135,7 @@
                         </div>
                     </li>
                     <li class="accordion-item is-active" data-accordion-item>
-                        ... 
+                        <!-- ... -->
                         <a href="#" class="accordion-title">Marketing branding and promotions materials</a>
                         <div class="accordion-content" data-tab-content>
                             <ol>
@@ -147,7 +147,7 @@
                         </div>
                     </li>
                     <li class="accordion-item is-active" data-accordion-item>
-                        ... 
+                        <!-- ... -->
                         <a href="#" class="accordion-title"><i class="fa fa-book"></i> Goods/product packages and Publishing</a>
                         <div class="accordion-content" data-tab-content>
                             <ol>
@@ -160,7 +160,7 @@
                     </li>
                 </ul>
 
-                row 1
+                <!--row 1-->
                 <div class="row">
                     <div class="small-12 large-3 columns">
                         <img class="first" src="images/image1.jpg" alt="">
@@ -176,7 +176,7 @@
                     </div>
                 </div>
                 <br>
-                row 2
+                <!--row 2-->
                 <div class="row">
                     <div class="small-12 large-3 columns">
                         <img src="images/image6.jpg" alt="">
@@ -188,7 +188,7 @@
             </div> 
             <hr>
         </div>
-        unique
+        <!--unique-->
         <div id="timeline" class="animated fadeIn" style="background-color: #2a2d38;">
             <div class="overlay">
                 <p class="head">GFGP Four-Phase delivery plan</p>

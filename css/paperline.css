@@ -433,7 +433,7 @@ h5 {
     .contact-container {
         background: #FFDB99 no-repeat bottom center;
         background-size: cover;
-        min-height: calc(100vh - 49px);
+        min-height: calc(50vh - 49px);
         position: relative;
     }
     .contact-wrapper {
